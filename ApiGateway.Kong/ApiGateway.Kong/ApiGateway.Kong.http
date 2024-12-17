@@ -1,0 +1,6 @@
+@ApiGateway.Kong_HostAddress = http://localhost:5228
+
+GET {{ApiGateway.Kong_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
